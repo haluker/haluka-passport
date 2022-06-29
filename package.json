@@ -1,0 +1,20 @@
+{
+  "name": "haluka-passport",
+  "version": "1.0.0",
+  "description": "Authentication Service Provider for Haluka (using passport)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Robin Panta",
+  "license": "MIT",
+  "dependencies": {
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@haluka/core": "^2.0.2",
+    "jest": "^28.1.1",
+    "mongoose": "^6.4.1"
+  }
+}
